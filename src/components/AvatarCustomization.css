@@ -1,0 +1,42 @@
+.avatar-customization {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.avatar-preview {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.avatar-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.gender-btns{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.gender-btns button{
+    height: 40px;
+    width: auto;
+    color: #fff;
+    padding: 0px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid blue;
+    background: transparent;
+    transform: all 1s ease-in-out;
+}
+
+.gender-btns .active{
+    border: none;
+    background: #3f4de4;
+    transform: all 1s ease-in-out;
+}

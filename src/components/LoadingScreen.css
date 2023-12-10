@@ -1,0 +1,43 @@
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+.loading-text{
+    font-size: 25px;
+    color: #ffffffd6;
+}
+
+  .circles-container {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffffb5;
+    animation: expand 1s ease-in-out infinite;
+  }
+  
+  @keyframes expand {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
